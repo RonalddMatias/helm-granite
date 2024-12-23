@@ -2903,3 +2903,13 @@ model_deployments:
       class_name: "helm.clients.huggingface_client.HuggingFaceClient"
     args:
       pretrained_model_name_or_path: maritaca-ai/sabia-7b
+
+# IBM - Granite 3.0
+  - name: ibm-granite/granite-3.1-1b-a400m-base
+    model_name: ibm-granite/granite-3.1-1b-a400m-base
+    tokenizer_name: ibm-granite/granite-3.1-1b-a400m-base
+    max_sequence_lenght: 128000
+    client_spec:
+      class_name: "helm.clients.huggingface_client.HuggingFaceClient"
+    args:
+      pretrained_model_name_or_path: ibm-granite/granite-3.1-1b-a400m-base
