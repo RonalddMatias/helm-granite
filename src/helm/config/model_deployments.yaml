@@ -2905,7 +2905,7 @@ model_deployments:
       pretrained_model_name_or_path: maritaca-ai/sabia-7b
 
 # IBM - Granite 3.0
-  - name: ibm-granite/granite-3.1-1b-a400m-base
+  - name: huggingface/granite-3.1-1b-a400m-base
     model_name: ibm-granite/granite-3.1-1b-a400m-base
     tokenizer_name: ibm-granite/granite-3.1-1b-a400m-base
     max_sequence_lenght: 128000
@@ -2914,7 +2914,7 @@ model_deployments:
     args:
       pretrained_model_name_or_path: ibm-granite/granite-3.1-1b-a400m-base
     
-  - name: ibm-granite/granite-3.1-1b-a400m-instruct
+  - name: huggingface/granite-3.1-1b-a400m-instruct
     model_name: ibm-granite/granite-3.1-1b-a400m-instruct
     tokenizer_name: ibm-granite/granite-3.1-1b-a400m-instruct
     max_sequence_lenght: 128000
@@ -2923,7 +2923,7 @@ model_deployments:
     args:
       pretrained_model_name_or_path: ibm-granite/granite-3.1-1b-a400m-instruct
 
-  - name: ibm-granite/granite-3.1-3b-a800m-base
+  - name: huggingface/granite-3.1-3b-a800m-base
     model_name: ibm-granite/granite-3.1-3b-a800m-base
     tokenizer_name: ibm-granite/granite-3.1-3b-a800m-base
     max_sequence_lenght: 128000
@@ -2932,7 +2932,7 @@ model_deployments:
     args:
       pretrained_model_name_or_path: ibm-granite/granite-3.1-3b-a800m-base
 
-  - name: ibm-granite/granite-3.1-3b-a800m-instruct
+  - name: huggingface/granite-3.1-3b-a800m-instruct
     model_name: ibm-granite/granite-3.1-3b-a800m-instruct
     tokenizer_name: ibm-granite/granite-3.1-3b-a800m-instruct
     max_sequence_lenght: 128000
@@ -2941,7 +2941,7 @@ model_deployments:
     args:
       pretrained_model_name_or_path: ibm-granite/granite-3.1-3b-a800m-instruct
   
-  - name: ibm-granite/granite-3.1-2b-base
+  - name: huggingface/granite-3.1-2b-base
     model_name: ibm-granite/granite-3.1-2b-base
     tokenizer_name: ibm-granite/granite-3.1-2b-base
     max_sequence_lenght: 128000
