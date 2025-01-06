@@ -3545,3 +3545,13 @@ models:
     num_parameters: 1330000000
     release: 2024-12-18
     tags: [TEXT_MODEL_TAG]
+  
+  - name: ibm-granite/granite-3.1-1b-a400m-instruct
+    display_name: Granite 3.1 A400M instruct (1B)
+    description: Granite-3.1-1B-A400M-Instruct is a 8B parameter long-context instruct model finetuned from Granite-3.1-1B-A400M-Base using a combination of open source instruction datasets with permissive license and internally collected synthetic datasets tailored for solving long context problems.
+    creator_organization_name: IBM
+    access: open
+    num_parameters: 1330000000
+    release: 2024-12-18
+    tags: [TEXT_MODEL_TAG, INSTRUCTION_FOLLOWING_MODEL_TAG]
+
